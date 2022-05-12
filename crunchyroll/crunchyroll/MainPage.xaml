@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="crunchyroll.MainPage" Title="crunchyroll" BackgroundColor="black" >
+
+    <NavigationPage.TitleView >
+        <Image Source="images.png" HeightRequest="55" HorizontalOptions="Start" Aspect="Fill"  BackgroundColor="Black" />
+    </NavigationPage.TitleView>
+
+    <ScrollView>
+        
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+ 
+            
+        </Frame>
+        <Label TextColor="AliceBlue" FontSize="Title">
+            SPRING SEASON SAMPLER
+        </Label>
+
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Column="0" Source="topfill.jpg" HorizontalOptions="Fill" Aspect="AspectFill"></Image>
+            
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label TextColor="AliceBlue" FontSize="Title">
+                SPRING SEASON SAMPLER
+            </Label>
+            <Image Grid.Column="0" Source="topfill.jpg" HorizontalOptions="Fill" ></Image>
+            <Image Grid.Column="1" Source="demonslayer.jpg" HorizontalOptions="Fill"></Image>
+            
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label TextColor="AliceBlue" FontSize="Title">
+                MOST POPULAR
+            </Label>
+                <Image Grid.Column="0" Source="sevendeadly.jpg" HorizontalOptions="Fill" ></Image>
+            <Image Grid.Column="1" Source="naruto.jpg" HorizontalOptions="Fill"></Image>
+
+        </Grid>
+        
+            
+
+            <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        
+                        
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+        <Button Text="GO PREMUIM" TextColor="Black" BackgroundColor="Orange" Clicked="Button_Clicked"/>
+       
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
