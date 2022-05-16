@@ -4,9 +4,10 @@
              x:Class="crunchyroll.MainPage" Title="crunchyroll" BackgroundColor="black" >
 
     <NavigationPage.TitleView >
-        <Image Source="images.png" HeightRequest="55" HorizontalOptions="Start" Aspect="Fill"  BackgroundColor="Black" />
+        <Image Source="images.png" HeightRequest="50" HorizontalOptions="Start"  BackgroundColor="Black"/>
+        
     </NavigationPage.TitleView>
-
+   
     <ScrollView>
         
     <StackLayout>
@@ -39,8 +40,9 @@
             </Label>
             <Image Grid.Column="0" Source="topfill.jpg" HorizontalOptions="Fill" ></Image>
             <Image Grid.Column="1" Source="demonslayer.jpg" HorizontalOptions="Fill"></Image>
-            
-        </Grid>
+                
+
+            </Grid>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"></RowDefinition>
@@ -50,10 +52,11 @@
             <Label TextColor="AliceBlue" FontSize="Title">
                 MOST POPULAR
             </Label>
-                <Image Grid.Column="0" Source="sevendeadly.jpg" HorizontalOptions="Fill" ></Image>
+                <Image Grid.Column="0" Source="academia.png" HorizontalOptions="Fill" ></Image>
             <Image Grid.Column="1" Source="naruto.jpg" HorizontalOptions="Fill"></Image>
+               
 
-        </Grid>
+            </Grid>
         
             
 
